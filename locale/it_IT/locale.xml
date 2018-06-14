@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+* locale/en_US/locale.xml
+*
+* Copyright (c) 2014 Simon Fraser University Library
+* Copyright (c) 2003-2014 John Willinsky
+* Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+*
+* Localization strings.
+-->
+
+<locale name="it_IT" full_name="Italiano">
+	<!-- General monograph keys -->
+	<message key="monograph.audience">Tipo di lettore</message>
+	<message key="monograph.coverImage">Immagine di copertina</message>
+	<message key="monograph.coverImage.uploadInstructions">Accertarsi che l'altezza dell'immagine non sia più del 150% della sua larghezza, altrimenti il carosello non riuscirà a mostrare la copertina nella sua interezza.</message>
+	<message key="monograph.currentCoverImage">Immagine corrente</message>
+	<message key="monograph.audience.rangeQualifier">Qualificatore della varietà di lettori</message>
+	<message key="monograph.audience.rangeFrom">Varietà di lettori (da)</message>
+	<message key="monograph.audience.rangeTo">Varietà di lettori (a)</message>
+	<message key="monograph.audience.rangeExact">Varietà di lettori (esatta)</message>
+	<message key="monograph.languages">Lingue (Inglese, Francese, Spagnolo)</message>
+	<message key="monograph.publicationFormats">Formati di pubblicazione</message>
+	<message key="monograph.carousel.publicationFormats">Formati:</message>
+	<message key="monograph.type">Tipologia di immissione</message>
+	<message key="submission.pageProofs">Bozze</message>
+	<message key="monograph.proofReadingDescription"><![CDATA[Il layout editor carica qui i file pronti per la pubblicazione. Usa <em>+Assegna</em> per designare gli autori e gli altri correttori che dovranno rileggere le bozze. Una volta corrette, le bozze devono essere nuovamente caricate per l'approvazione definitiva alla pubblicazione.]]></message>
+	<message key="monograph.task.addNote">Aggiungi ai compiti</message>
+	<message key="monograph.accessLogoOpen.altText">Accesso aperto</message>
+
+
+	<!-- Metadata field description keys -->
+	<message key="monograph.publicationFormat.imprint">Marchio editoriale</message>
+	<message key="monograph.publicationFormat.pageCounts">Numero di pagine</message>
+	<message key="monograph.publicationFormat.frontMatterCount">Pagine iniziali</message>
+	<message key="monograph.publicationFormat.backMatterCount">Appendici</message>
+	<message key="monograph.publicationFormat.productComposition">Composizione del prodotto</message>
+	<message key="monograph.publicationFormat.productFormDetailCode">Dettagli del prodotto (non obbligatori)</message>
+	<message key="monograph.publicationFormat.productIdentifierType">Identificazione del prodotto</message>
+	<message key="monograph.publicationFormat.price">Prezzo</message>
+	<message key="monograph.publicationFormat.priceRequired">Stabilire il prezzo.</message>
+	<message key="monograph.publicationFormat.priceType">Tipo di prezzo</message>
+	<message key="monograph.publicationFormat.discountAmount">Percentuale di sconto, se applicabile</message>
+	<message key="monograph.publicationFormat.productAvailability">Disponibilità del prodotto</message>
+	<message key="monograph.publicationFormat.returnInformation">Indicatore di restituzione</message>
+	<!-- Dimension keys -->
+	<message key="monograph.publicationFormat.digitalInformation">Informazione digitale</message>
+	<message key="monograph.publicationFormat.productDimensions">Dimensioni fisiche</message>
+	<message key="monograph.publicationFormat.productDimensionsSeparator"> x </message>	
+	<message key="monograph.publicationFormat.productFileSize">Dimensione del file Size in Megabyte</message>
+	<message key="monograph.publicationFormat.productFileSize.override">Vuoi inserire un valore personalizzato per le dimensioni del tuo file?</message>
+	<message key="monograph.publicationFormat.productHeight">Altezza</message>
+	<message key="monograph.publicationFormat.productThickness">Spessore</message>
+	<message key="monograph.publicationFormat.productWeight">Peso</message>
+	<message key="monograph.publicationFormat.productWidth">Larghezza</message>
+	<message key="monograph.publicationFormat.countryOfManufacture">Paese di pubblicazione</message>
+
+	<message key="monograph.publicationFormat.technicalProtection">Misure tecniche per la protezione digitale</message>
+	<message key="monograph.publicationFormat.productRegion">Regione di distribuzione del prodotto</message>
+	<message key="monograph.publicationFormat.taxRate">Tariffa di tassazione</message>
+	<message key="monograph.publicationFormat.taxType">Tipo di tassazione</message>
+
+	<message key="monograph.publicationFormat.formatMetadata">Formato dei metadati</message>
+	<message key="monograph.publicationFormat.isApproved">Includere i metadati di questo formato di pubblicazione nel record di per questo libro.</message>
+	<message key="monograph.publicationFormat.noMarketsAssigned">Mercati e prezzi mancanti.</message>
+	<message key="monograph.publicationFormat.noCodesAssigned">Codice identificativo mancante.</message>
+	<message key="monograph.publicationFormat.missingONIXFields">Mancano alcuni campi di metadati.</message>
+
+	<message key="monograph.publicationFormat.formatDoesNotExist"><![CDATA[<p>Il formato di pubblicazione scelto per questa monografia non esiste più.</p>]]></message>
+	<message key="monograph.publicationFormat.openTab">Apri la tab per il formato di pubblicazione.</message>
+	<!-- assigned publication format grid and form keys -->
+	<message key="grid.catalogEntry.publicationFormatType">Formato di pubblicazione</message>
+	<message key="grid.catalogEntry.nameRequired">Scegliere un nome.</message>
+	<message key="grid.catalogEntry.validPriceRequired">Indicare un prezzo valido.</message>
+	<message key="grid.catalogEntry.publicationFormatDetails">Dettagli del formato</message>
+	<message key="grid.catalogEntry.physicalFormat">Formato fisico</message>
+	<message key="grid.catalogEntry.monographRequired">Occorre assegnare un ID alla monografia.</message>
+	<message key="grid.catalogEntry.publicationFormatRequired">Occorre scegliere un formato di pubblicazione.</message>
+	<message key="grid.catalogEntry.isAvailable">Disponibile</message>
+	<message key="grid.catalogEntry.proof">Prova</message>
+	<message key="grid.catalogEntry.availablePublicationFormat.title">Approvazione del formato</message>
+	<message key="grid.catalogEntry.availablePublicationFormat.message"><![CDATA[<p>Questo formato sarà <em>disponibile</em> per i lettori, attraverso i file scaricabili che appariranno accanto al record del libro e/o attraverso ulteriori azioni intraprese dal sito per distribuire il libro.</p>]]></message>
+	<message key="grid.catalogEntry.availablePublicationFormat.removeMessage"><![CDATA[<p>Questo formato <em>non sarà più disponibile</ em> per i lettori, attraverso i file scaricabili che appariranno accanto al record del libro e/o attraverso ulteriori azioni intraprese dal sito per distribuire il libro.</p>]]></message>
+	<message key="grid.catalogEntry.availablePublicationFormat.catalogNotApprovedWarning">Record di catalogo non approvato.</message>
+	<message key="grid.catalogEntry.availablePublicationFormat.notApprovedWarning">Questo formato non è disponibile nel record.</message>
+	<message key="grid.catalogEntry.availablePublicationFormat.proofNotApproved">Bozza non approvata.</message>
+
+	<!-- publication metadata required form field keys -->
+	<message key="grid.catalogEntry.fileSizeRequired">Occorre indicare la dimensione del file per i formati digitali richiesti.</message>
+	<message key="grid.catalogEntry.productAvailabilityRequired">Occorre indicare il codice di disponibilità del prodotto.</message>
+	<message key="grid.catalogEntry.productCompositionRequired">Occorre scegliere un codice di composizione del prodotto.</message>
+
+	<!-- assigned identification code grid and form keys -->
+	<message key="grid.catalogEntry.identificationCodeValue">Valore del codice</message>
+	<message key="grid.catalogEntry.identificationCodeType">Tipo di codice ONIX</message>
+	<message key="grid.catalogEntry.codeRequired">È obbligatorio inserire un codice identificativo.</message>
+	<message key="grid.catalogEntry.valueRequired">È obbligatorio inserire un valore.</message>
+
+	<!-- assigned sales rights grid and form keys -->
+	<message key="grid.catalogEntry.salesRights">Diritti di vendita</message>
+	<message key="grid.catalogEntry.salesRightsValue">Valore del codice</message>
+	<message key="grid.catalogEntry.salesRightsType">Tipi di diritti di vendita</message>
+	<message key="grid.catalogEntry.salesRightsROW">Resto del mondo?</message>
+	<message key="grid.catalogEntry.salesRightsROW.tip">Seleziona questa casella per utilizzare questi Diritti di vendita se pensi che si applicano al tuo formato in modo onnicomprensivo. In questo caso non occorre scegliere i paesi e le regioni.</message>
+	<message key="grid.catalogEntry.codeRequired">È obbligatorio un codice.</message>
+	<message key="grid.catalogEntry.oneROWPerFormat">Esiste già un tipo di vendita ROW definito per questo formato di pubblicazione.</message>
+	<message key="grid.catalogEntry.countries">Nazioni</message>
+	<message key="grid.catalogEntry.regions">Regioni</message>
+	<message key="grid.catalogEntry.included">Incluso</message>
+	<message key="grid.catalogEntry.excluded">Escluso</message>
+
+	<!-- market regions grid and form keys -->
+	<message key="grid.catalogEntry.markets">Territori del mercato</message>
+	<message key="grid.catalogEntry.marketTerritory">Territori</message>
+
+	<!-- assigned publication date grid and form keys -->
+	<message key="grid.catalogEntry.publicationDates">Date di pubblicazione</message>
+	<message key="grid.catalogEntry.roleRequired">Occorre indicare un ruolo per la data.</message>
+	<message key="grid.catalogEntry.dateFormatRequired">Occorre indicare un formato di data.</message>
+
+	<!-- general catalog date keys -->
+	<message key="grid.catalogEntry.dateValue">Data</message>
+	<message key="grid.catalogEntry.dateRole">Ruolo</message>
+	<message key="grid.catalogEntry.dateFormat">Formato di data</message>
+	<message key="grid.catalogEntry.dateRequired">Occorre indicare una data e il valore della data deve corrispondere al formato di data prescelto.</message>
+
+	<!-- assigned representative information grid and form keys -->
+	<message key="grid.catalogEntry.representatives">Rappresentanti</message>
+	<message key="grid.catalogEntry.representativeType">Tipo di rappresentati</message>
+	<message key="grid.catalogEntry.agentsCategory">Agenti</message>
+	<message key="grid.catalogEntry.suppliersCategory">Fornitori</message>
+	<message key="grid.catalogEntry.agent">Agente</message>
+	<message key="grid.catalogEntry.agentTip">È possibile assegnare un agente che vi rappresenti in questo territorio, ma non è indispensabile.</message>
+	<message key="grid.catalogEntry.supplier">Fornitore</message>
+	<message key="grid.catalogEntry.representativeRoleChoice">Scegliere un ruolo:</message>
+	<message key="grid.catalogEntry.representativeRole">Ruolo</message>
+	<message key="grid.catalogEntry.representativeName">Nome</message>
+	<message key="grid.catalogEntry.roleRequired">Occorre indicare un ruolo di rappresentanza.</message>
+	<message key="grid.catalogEntry.representativePhone">Telefono</message>
+	<message key="grid.catalogEntry.representativeFax">Fax</message>
+	<message key="grid.catalogEntry.representativeEmail">Indirizzo email</message>
+	<message key="grid.catalogEntry.representativeWebsite">Sito web</message>
+	<message key="grid.catalogEntry.representativeIdValue">ID del rappresentante</message>
+	<message key="grid.catalogEntry.representativeIdType">Tipo di ID del rappresentante (si raccomanda GLN)</message>
+	<message key="grid.catalogEntry.representativesDescription">È possibile lasciare la seguente sezione vuota se si forniscono i propri servizi ai clienti.</message>
+	<message key="grid.action.addRepresentative">Aggiunge un rappresentante</message>
+	<message key="grid.action.editRepresentative">Edita il rappresentante</message>
+	<message key="grid.action.deleteRepresentative">Cancella il rappresentante</message>
+
+	<!-- Spotlight grid keys -->
+	<!-- Spotlights management -->
+	<message key="spotlight">In evidenza</message>
+	<message key="spotlight.spotlights">In evidenza</message>
+	<message key="spotlight.noneExist">Non ci sono libri in evidenza</message>
+	<message key="spotlight.title.homePage">In evidenza</message>
+	<message key="spotlight.author">Autore, </message>
+	<message key="grid.content.spotlights.spotlightItemTitle">Volume in evidenza</message>
+	<message key="grid.content.spotlights.category.homepage">Homepage</message>
+	<message key="grid.content.spotlights.category.sidebar">Sidebar</message>
+	<message key="grid.content.spotlights.form.location">Collocazione per "In evidenza"</message>
+	<message key="grid.content.spotlights.form.item">Inserisci il titolo messo In evidenza (autocompletamento)</message>
+	<message key="grid.content.spotlights.form.title">Titolo In evidenza</message>
+	<message key="grid.content.spotlights.form.type.book">Libro</message>
+	<message key="grid.content.spotlights.itemRequired">Occorre indicare un libro</message>
+	<message key="grid.content.spotlights.titleRequired">Occorre indicare un titolo In evidenza</message>
+	<message key="grid.content.spotlights.locationRequired">Per favore, scegli un posto per questo In evidenza</message>
+	<message key="grid.action.editSpotlight">Edita questo volume In evidenza</message>
+	<message key="grid.action.deleteSpotlight">Cancella questo volume In evidenza</message>
+	<message key="grid.action.addSpotlight">Aggiungi un volume In evidenza</message>
+
+	<!-- Editorial policies -->
+	<message key="manager.series.open">Proposte libere</message>
+	<message key="manager.series.indexed">Indicizzato</message>
+
+	<!-- Library Files -->
+	<message key="grid.libraryFiles.column.files">Files</message>
+
+	<!-- OMP specific grid actions -->
+	<message key="grid.action.catalogEntry">Visualizza il form di immissione nel catalogo</message>
+	<message key="grid.action.formatInCatalogEntry">Il formato appare all'inizio del catalogo</message>
+	<message key="grid.action.editFormat">Edita questo formato</message>
+	<message key="grid.action.deleteFormat">Cancella questo formato</message>
+	<message key="grid.action.addFormat">Aggiungi il formato di pubblicazione</message>
+	<message key="grid.action.approveProof">Dai la tua approvazione perché la prova possa essere indicizzata e inclusa nel Catalogo</message>
+	<message key="grid.action.pageProofApproved">Il file per le prove della messa in pagina è pronto per la pubblicazione</message>
+	<message key="grid.action.addAnnouncement">Aggiungi un annuncio</message>
+	<message key="grid.action.newCatalogEntry">Nuovo ingresso nel Catalogo</message>
+	<message key="grid.action.publicCatalog">Visualizza questo titolo nel Catalogo</message>
+	<message key="grid.action.feature">Cambia la visualizzazione delle caratteristiche</message>
+	<message key="grid.action.featureMonograph">Metti nel carosello del Catalogo</message>
+	<message key="grid.action.releaseMonograph">Segna questa immissione come 'novità'</message>
+	<message key="grid.action.manageCategories">Configura le categorie per questa Press</message>
+	<message key="grid.action.manageSeries">Configura le collane per questa Press</message>
+	<message key="grid.action.addCode">Aggiungi un Codice identificativo</message>
+	<message key="grid.action.editCode">Modifica il codice</message>
+	<message key="grid.action.deleteCode">Cancella il Codice</message>
+	<message key="grid.action.addRights">Aggiungi i diritti di vendita</message>
+	<message key="grid.action.editRights">Modifica i diritti</message>
+	<message key="grid.action.deleteRights">Cancella i diritti</message>
+	<message key="grid.action.addMarket">Aggiungi un Mercato</message>
+	<message key="grid.action.editMarket">Modifica il Mercato</message>
+	<message key="grid.action.deleteMarket">Cancella il Mercato</message>
+	<message key="grid.action.addDate">Aggiungi una data di pubblicazione</message>
+	<message key="grid.action.editDate">Modifica la data</message>
+	<message key="grid.action.deleteDate">Cancella la data</message>
+	<message key="grid.action.createContext">Crea una nuova Press</message>
+	<message key="grid.action.addCode">Aggiungi Codice</message>
+	<message key="grid.action.addSpotlight">Aggiungi "In evidenza"</message>
+	<message key="grid.action.publicationFormatTab">Mostra la tab per il formato di pubblicazione</message>
+	<message key="grid.action.moreAnnouncements">Vai alla pagina degli annunci</message>
+	<message key="grid.action.submissionEmail">Clicca per leggere questa email</message>
+	<message key="grid.action.approveProofs">Visualizza la griglia delle prove</message>
+	<message key="grid.action.proofApproved">Il format è stato approvato</message>
+	<message key="grid.action.availableRepresentation">Approva/Respingi questo formato</message>
+	<message key="grid.action.formatAvailable">Il formato è disponibile e pubblicato</message>
+
+	<message key="grid.action.editApprovedProof">Modifica questa prova già approvata</message>
+
+	<!-- Review Attachments -->
+	<message key="grid.reviewAttachments.add">Aggiungi un allegato alla recensione</message>
+	<message key="grid.reviewAttachments.availableFiles">File disponibili</message>
+
+	<!-- series/categories/series -->
+	<message key="series.series">Collana</message>
+	<message key="series.featured.description">Queste collane appariranno nel menu di navigazione principale</message>
+	<message key="series.path">Percorso</message>
+	
+	<message key="series.featured">In primo piano</message>
+
+	<message key="grid.category.categories">Categorie</message>
+	<message key="grid.category.add">Aggiungi una categoria</message>
+	<message key="grid.category.edit">Modifica la categoria</message>
+	<message key="grid.category.name">Nome</message>
+	<message key="grid.category.path">Percorso</message>
+	<message key="grid.category.urlWillBe">L'indirizzo URL della categoria sarà {$sampleUrl}</message>
+	<message key="grid.series.urlWillBe">L'indirizzo URL della collana sarà {$sampleUrl}. Il 'Percorso' consiste in una stringa di caratteri usati per identificare in modo univoco una collana.</message>
+	<message key="grid.category.pathAlphaNumeric">Il percorso per la categoria può contenere solo lettere e numeri.</message>
+	<message key="grid.category.pathExists">Il percorso per la categoria già esiste. Per favore, inserisci un percorso unico.</message>
+	<message key="grid.category.description">Descrizione</message>
+	<message key="grid.category.parentCategory">Categoria principale</message>
+	<message key="grid.category.removeText">Sei sicuro di voler rimuovere questa categoria?</message>
+	<message key="grid.category.nameRequired">Per favore, inserisci il nome di una categoria.</message>
+	<message key="grid.category.categoryDetails">Dettagli della categoria</message>
+
+	<!-- Catalog Management -->
+	<message key="catalog.manage">Gestione del Catalogo</message>
+	<message key="catalog.manage.newReleases">In primo piano</message>
+	<message key="catalog.manage.category">Categorie</message>
+	<message key="catalog.manage.series">Collane</message>
+	<message key="catalog.manage.series.issn">ISSN</message>
+	<message key="catalog.manage.series.issn.validation">Please enter a valid ISSN.</message>
+	<message key="catalog.manage.series.issn.equalValidation">Online and print ISSN must not be the same.</message>
+	<message key="catalog.manage.series.onlineIssn">Online ISSN</message>
+	<message key="catalog.manage.series.printIssn">Print ISSN</message>
+	<message key="catalog.selectSeries">Select Series</message>
+	<message key="catalog.selectCategory">Select Category</message>
+	<message key="catalog.manage.managementIntroduction">Benvenuto nella pagina di gestione del Catalogo. A partire da questa pagina è possibile pubblicare le novità del catalogo "In primo piano", rivedere  econfigurare la lista delle "novità", rivedere e disporre i libri per Categorie e Serie.</message>
+	<message key="catalog.selectSeries">Scegli una collana</message>
+	<message key="catalog.selectCategory">Scegli una categoria</message>	
+	<message key="catalog.manage.homepageDescription">L'immagine di copertina dei libri selezionati appare nella parte superiore della home page come un insieme scorrevole. Clicca su 'Funzione' e poi sulla stella per aggiungere un libro al carosello; clicca sul punto esclamativo per inserire il libro tra le novità; trascina e rilascia per stabilire un nuovo ordine tra i volumi.</message>
+	<message key="catalog.manage.categoryDescription">Clicca su 'Funzione' e poi sulla stella per scegliere un libro in evidenza per questa categoria; trascina e rilascia per ordinare.</message>
+	<message key="catalog.manage.seriesDescription">Clicca su 'Funzione' e poi sulla stella per scegliere un libro in evidenza per questa collana; trascina e rilascia per ordinare. Le collane vengonon identificate con il nome del curatore e con il titolo della collana, all'interno o meno di una categoria.</message>
+	<message key="catalog.manage.placeIntoCarousel">Carosello</message>
+	<message key="catalog.manage.newRelease">Pubblicazione</message>
+	<message key="catalog.manage.manageSeries">Gestione della collana</message>
+	<message key="catalog.manage.manageCategories">Gestione delle categorie</message>
+	<message key="catalog.manage.noMonographs">Non ci sono Monografie assegnate.</message>
+
+	<message key="catalog.manage.featured">In Evidenza</message>
+	<message key="catalog.manage.categoryFeatured">In evidenza</message>
+	<message key="catalog.manage.seriesFeatured">Nelle collane</message>
+	<message key="catalog.manage.featuredSuccess">Monograph is featured.</message>
+	<message key="catalog.manage.notFeaturedSuccess">Monograph is not featured.</message>
+	<message key="catalog.manage.newReleaseSuccess">Monograph is marked as a new release.</message>
+	<message key="catalog.manage.notNewReleaseSuccess">Monograph is unmarked as a new release.</message>
+	<message key="catalog.manage.feature.newRelease">New release</message>
+	<message key="catalog.manage.feature.categoryNewRelease">New release nelle discipline</message>
+	<message key="catalog.manage.feature.seriesNewRelease">New release nelle collane</message>
+	<message key="catalog.manage.nonOrderable">This monograph is not orderable until it's featured.</message>
+	<message key="catalog.manage.filter.searchByAuthorOrTitle">Cerca per titolo o autore</message>
+
+	<message key="catalog.manage.homepage">Homepage</message>
+	<message key="catalog.manage.entryDescription">Per inserire un libro nel catalogo, seleziona la scheda Monografia e compila le informazioni necessarie. Le informazioni per ciascuno dei formati del libro possono essere incluse nella voce di catalogo selezionando la scheda per il formato. Le specifiche che riguardano i metadati sono basate su ONIX for Books, che è uno standard internazionale utilizzato dall'industria editoriale per la comunicazione delle informazioni sui prodotti.</message>
+	<message key="catalog.manage.spotlightDescription">Sulla homepage possono essere visualizzati tre spotlights (per es. Libri sotto i riflettori), che riportano titolo, copertina e testo.</message>
+
+	<!-- Catalog -->
+	<message key="catalog.browseTitles">Consulta {$numTitles} Titoli</message>
+	<message key="catalog.categories">Discipline</message>
+	<message key="catalog.feature">Caratteristiche</message>
+	<message key="catalog.featured">In evidenza</message>
+	<message key="catalog.featuredBooks">Libri in evidenza</message>
+	<message key="catalog.allBooks">Tutti i libri</message>
+	<message key="catalog.newReleases">Nuove pubblicazioni</message>
+	<message key="catalog.dateAdded">Aggiunto il {$dateAdded}</message>
+	<message key="catalog.publicationInfo">Informazioni sulla pubblicazione</message>
+	<message key="catalog.relatedCategories">Categorie collegate</message>
+	<message key="catalog.aboutTheAuthor">Su {$roleName}</message>
+	<message key="catalog.noBioInfo">Non è disponibile al momento nessuna biografia.</message>
+	<message key="catalog.loginRequiredForPayment">Da notare: per l'acquisto di documenti, è necessario effettuare prima il login. Selezionando il documento da acquistare sarete indirizzati alla pagina di login. Tutti i documenti segnati con un'icona Open Access possono essere scaricati gratuitamente, senza effettuare il login.</message>
+
+	<!--
+	*
+	* COMMON - This section contains the most frequently-used words
+	*
+	-->
+	<message key="common.prefix">Prefisso</message>
+	<message key="common.preview">Previsualizzazione</message>
+	<message key="common.feature">Caratteristiche</message>
+	<message key="common.searchCatalog">Cerca nel Catalogo</message>
+	<message key="common.moreInfo">Informazioni aggiuntive</message>
+	<message key="common.plusMore">+ Più</message>
+
+
+	<message key="common.listbuilder.completeForm">Per favore, riempi tutto il formulario.</message>
+	<message key="common.listbuilder.selectValidOption">Per favore, scegli dalla lista una opzione valida.</message>
+	<message key="common.listbuilder.itemExists">Non è possibile aggiungere due volte lo stesso elemento.</message>
+
+	<message key="common.catalogInformation">Non è necessario completare le informazioni nel catalogo quando il documento viene caricato per la prima volta, eccetto il titolo e di un abstract.</message>
+	<message key="common.prefixAndTitle.tip">Se il libro comincia con un articolo, "Un/Uno/Una" o "Il/Lo/La/I/Gli/Le" (o per qualsiasi parola non debba essere presa in considerazione per l'ordine alfabetico) inserisce la parola in Prefisso.</message>
+
+	<!-- Common Messages -->
+	<message key="common.openMonographPress">Open Monograph Press</message>
+	<message key="common.omp">OMP</message>
+	<message key="common.homePageHeader.altText">Testata della Homepage Header</message>
+
+	<!-- Navigation -->
+	<message key="navigation.catalog">Catalogo</message>
+	<message key="navigation.competingInterestPolicy">Polcy per il conflitto di interessi</message>
+	<message key="navigation.catalog.manage">Gestione</message>
+	<message key="navigation.catalog.administration.short">Amministrazione</message>
+	<message key="navigation.catalog.administration">Gestione del Catalogo</message>
+	<message key="navigation.catalog.administration.categories">Discipline</message>
+	<message key="navigation.catalog.administration.series">Collane</message>
+	<message key="navigation.infoForAuthors">Per Autori</message>
+	<message key="navigation.infoForLibrarians">Per Bibliotecari</message>
+	<message key="navigation.infoForAuthors.long">Informazioni per gli Autori</message>
+	<message key="navigation.infoForLibrarians.long">Informazioni per bibliotecari</message>
+	<message key="navigation.newReleases">Nuove pubblicazioni</message>
+	<message key="navigation.published">Pubblicato</message>
+	<message key="navigation.wizard">Wizard</message>
+	<message key="navigation.linksAndMedia">Link ai Social Media</message>
+
+	<!-- Common Press Terms -->
+	<message key="press.presses">Presses</message>
+	<message key="press.path">Percorso</message>
+	<message key="context.context">Press</message>
+	<message key="context.select">Seleziona una Press...</message>
+
+	<!-- User -->
+	<message key="user.noRoles.selectUsersWithoutRoles">Aggiungi utenti senza ruoli in questa Press.</message>
+	<message key="user.noRoles.submitMonograph">Fai una proposta</message>
+	<message key="user.noRoles.submitMonographRegClosed">Carica una Monografia: la registrazione di un Autore non è al momento attiva.</message>
+	<message key="user.noRoles.regReviewer">Registrati come Reviewer</message>
+	<message key="user.noRoles.regReviewerClosed">Registrati come Reviewer: la registrazione di un Reviewer non è al momento attiva.</message>
+
+	<!-- OMP-specific Roles -->
+	<message key="user.role.manager">Press Manager</message>
+	<message key="user.role.pressEditor">Press Editor</message>
+	<message key="user.role.subEditor">Editor di collana</message>
+	<message key="user.role.assistant">Press Assistant</message>
+	<message key="user.role.copyeditor">Copyeditor</message>
+	<message key="user.role.proofreader">Correttore di bozze</message>
+	<message key="user.role.productionEditor">Production Editor</message>
+
+	<message key="user.role.managers">Press Managers</message>
+	<message key="user.role.subEditors">Editors di collana</message>
+	<message key="user.role.editors">Editors</message>
+	<message key="user.role.copyeditors">Copyeditors</message>
+	<message key="user.role.proofreaders">Correttori di bozze</message>
+	<message key="user.role.productionEditors">Production Editors</message>
+
+	<!-- Registration -->
+	<message key="user.register.completeForm">Riempi questo formulario per registrarti presso questa Press.</message>
+	<message key="user.register.selectContext">Scegli a quale Press registrarti</message>
+	<message key="user.register.noContexts">Non puoi registrarti presso nessuna Press ospitata su questo sito.</message>
+	<message key="user.register.privacyStatement">Informativa sulla privacy</message>
+	<message key="user.register.alreadyRegisteredOtherContext"><![CDATA[<a href="{$registerUrl}">Clicca qui</a> se sei già registrato in una Press su questo sito.]]></message>
+	<message key="user.register.notAlreadyRegisteredOtherContext"><![CDATA[<a href="{$registerUrl}">Clicca qui</a> se <strong>non</strong> sei già registrato in una Press su questo sito.]]></message>
+	<message key="user.register.loginToRegister">Inserisci la tua username e password corrente per registrarti con questa Press.</message>
+	<message key="user.register.registrationDisabled">Le registrazioni sono sospese.</message>
+	<message key="user.register.form.passwordLengthTooShort">La password inserita non è abbastanza lunga.</message>
+	<message key="user.register.readerDescription">Notifica per mezzo di email sulla pubblicazione di una monografia.</message>
+	<message key="user.register.authorDescription">È possibile sottomettere documenti alla Press.</message>
+	<message key="user.register.reviewerDescriptionNoInterests">Disponibile alla peer review per i documenti sottomessi alla Press.</message>
+	<message key="user.register.reviewerDescription">Disponibile alla peer review per i documenti sottomessi al Sito.</message>
+	<message key="user.register.reviewerInterests">Identifica i campi di tuo interesse per la peer review (aree e metodi di ricerca):</message>
+	<message key="user.register.form.userGroupRequired">Devi scegliere almeno un ruolo</message>
+
+	<!-- Site index -->
+	<message key="site.pressView">Consulta il sito web della Press</message>
+
+	<!-- About The Press -->
+	<message key="about.aboutContext">Informazioni</message>
+	<message key="about.pressContact">Per contattare la Press</message>
+	<message key="about.aboutThePress">Caratteri di SHARE Press</message>
+	<message key="about.editorialTeam">Team editoriale</message>
+	<message key="about.editorialPolicies">Policies redazionali</message>
+	<message key="about.focusAndScope">Focus e ambito</message>
+	<message key="about.seriesPolicies">Policies concernenti le collane e le categorie </message>
+	<message key="about.submissions">Proposte di pubblicazione</message>
+	<message key="about.sponsors">Sponsor</message>
+	<message key="about.contributors">Fonti di finanziamento</message>
+	<message key="about.onlineSubmissions">Inserimenti online</message>
+	<message key="about.onlineSubmissions.login">Vai al Login</message>
+	<message key="about.onlineSubmissions.registration">Vai alla Registrazione</message>
+	<message key="about.onlineSubmissions.registrationRequired"><![CDATA[È necessario autenticarsi per proporre testi per la pubblicazione e seguirne il successivo iter. <a href="{$loginUrl}">Login</a>]]></message>
+	<message key="about.onlineSubmissions.submissionActions">{$newSubmission} o {$viewSubmissions}.</message>
+	<message key="about.onlineSubmissions.newSubmission">Proponi un testo per la pubblicazione</message>
+	<message key="about.onlineSubmissions.viewSubmissions">verifica lo stato della tua proposta</message>
+	<message key="about.authorGuidelines">Linee Guida per gli Autori</message>
+	<message key="about.submissionPreparationChecklist">Controlli per gli autori</message>
+	<message key="about.submissionPreparationChecklist.description">Gli autori, prima di caricare sulla piattaforma i loro contributi, sono tenuti a verificare che essi rispettino i criteri elencati di seguito. I testi che non dovessero tenerne conto saranno restituiti agli autori.</message>
+	<message key="about.copyrightNotice">Avviso di Copyright </message>
+	<message key="about.privacyStatement">Informativa sulla privacy</message>
+	<message key="about.reviewPolicy">Processo di Peer Review</message>
+	<message key="about.publicationFrequency">Frequenza di pubblicazione</message>
+	<message key="about.openAccessPolicy"> Policy sull'Open Access</message>
+	<message key="about.pressSponsorship">Sponsorship per questa Press </message>
+	<message key="about.aboutThisPublishingSystem">Informazioni su questo sistema di pubblicazione</message>
+	<message key="about.aboutThisPublishingSystem.altText">Processo editoriale di OMP</message>
+	<message key="about.aboutOMPPress"><![CDATA[Questa Press usa Open Monograph Press {$ompVersion}, che è un software open source per la gestione dei processi editoriali, sviluppato, supportato e distribuito gratuitamente dalla <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> con Licenza pubblica GNU.]]></message>
+	<message key="about.aboutOMPSite"><![CDATA[Questo sito usa Open Monograph Press {$ompVersion}, che è un software open source per la gestione dei processi editoriali, sviluppato, supportato e distribuito gratuitamente dalla <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> con Licenza pubblica GNU.]]></message>
+
+	<message key="about.onlineSubmissions.haveAccount">Hai già una Username/Password per {$pressTitle}?</message>
+	<message key="about.onlineSubmissions.needAccount">Hai bisogno di una Username/Password?</message>
+	<!-- Help -->
+	<message key="help.searchReturnResults">Torna ai Risultati della ricerca</message>
+	<message key="help.goToEditPage">Apri una nuova pagina per modificare questa informazione</message>
+
+	<!-- Installer -->
+	<message key="installer.ompInstallation">Installazione di OMP</message>
+	<message key="installer.ompUpgrade">Aggiornamento di OMP</message>
+	<message key="installer.installApplication">Installa Open Monograph Press</message>
+	<message key="installer.installationInstructions"><![CDATA[<p>Grazie per aver scaricato <strong>Open Monograph Press {$version}</strong> del Public Knowledge Project. Prima di continuare, leggi il file <a href="{$baseUrl}/docs/README">README</a> incluso in questo software. Per maggiori informazioni sul Public Knowledge Project e i suoi progetti di software, per favore visita il <a href="http://pkp.sfu.ca/" target="_blank">sito web PKP</a>. Se ti imbatti in bug oppure vuoi porre quesiti tecnici su Open Monograph Press, vai sul <a href="http://pkp.sfu.ca/support/forum" target="_blank">forum di supporto</a> oppure visita il <a href="http://pkp.sfu.ca/bugzilla/" target="_blank">sistema di bug reporting</a> online di PKP. Benché il forum di supporto sia il modo preferito per questo tipo di contatti, puoi anche inviare una email al team usando questo indirizzo: <a href="mailto:pkp.contact@gmail.com">pkp.contact@gmail.com</a>.</p><h4>Aggiornamento</h4> <p>Se stai aggiornando una installazione esistente di OMP 0.x, <a href="{$upgradeUrl}">clicca qui</a> per procedere.</p>]]></message>
+	<message key="installer.preInstallationInstructionsTitle">Passaggi per la pre-Installazione</message>
+	<message key="installer.preInstallationInstructions"><![CDATA[<p>1. I file e le cartelle seguenti (ed i loro contenuti) devono essere scrivibili:</p><ul><li><tt>config.inc.php</tt> è scrivibile (opzionale): {$writable_config}</li><li><tt>public/</tt> è scrivibile: {$writable_public}</li><li><tt>cache/</tt> è scrivibile: {$writable_cache}</li><li><tt>cache/t_cache/</tt> è scrivibile: {$writable_templates_cache}</li><li><tt>cache/t_compile/</tt> è scrivibile: {$writable_templates_compile}</li><li><tt>cache/_db</tt> è scrivibile: {$writable_db_cache}</li></ul><p>2. Deve essere creata e resa scrivibile una cartella per conservare i file caricati (vedi "Settaggi dei File" sotto).</p>]]></message>
+	<message key="installer.upgradeInstructions"><![CDATA[<h4>Versione OMP {$version}</h4><p>Grazie per aver scaricato <strong>Open Monograph Press</strong> del Public Knowledge Project. Prima di continuare, leggi i file <a href="{$baseUrl}/docs/README">README</a> e <a href="{$baseUrl}/docs/UPGRADE">UPGRADE</a> inclusi in questo software. Per maggiori informazioni sul Public Knowledge Project e i suoi progetti di software, per favore visita il <a href="http://pkp.sfu.ca/" target="_blank">sito web PKP</a>. Se ti imbatti in bug oppure vuoi porre quesiti tecnici su Open Monograph Press, vai sul <a href="http://pkp.sfu.ca/support/forum" target="_blank">forum di supporto</a> oppure visita il <a href="http://pkp.sfu.ca/bugzilla/" target="_blank">sistema di bug reporting</a>online di PKP. Benché il forum di supporto sia il modo preferito per questo tipo di contatti, puoi anche inviare una email al team usando questo indirizzo: <a href="mailto:pkp.contact@gmail.com">pkp.contact@gmail.com</a>.</p><p>È <strong>fortemente raccomandato</strong> che tu esegua il backup del database, delle cartelle e della cartella di installazione di OMP prima di procedere.</p><p>Se ti trovi in <a href="http://www.php.net/features.safe-mode" target="_blank">PHP Safe Mode</a>, per favore, assicurati che il parametro max_execution_time nel tuo file di configurazione php.ini sia settato con un limite sufficientemente elevatot. Se si raggiunge questo o qualsiasi altro limite (per es. il parametro "Timeout" di Apache) e si interrompe il processo di aggiornamento, si dovrà intervenire a mano.</p>]]></message>
+	<message key="installer.localeSettingsInstructions"><![CDATA[Per un supporto completo a Unicode (UTF-8), scegli di settare UTF-8 per tutti i caratteri. Nota che questo supporto richiede un database sul server come MySQL >= 4.1.1 oppure PostgreSQL >= 9.1.5. Per favore, nota anche che il supporto completo a Unicode richiede lo scarico della library <a href="http://www.php.net/mbstring" target="_blank">mbstring</a> (attivo di default nelle più recenti installazioni PHP). È possibile che si abbiano problemi nell'uso di set di caratteri estesi se il server non supporta queste richieste.<br /><br />Il server supporta al momento mbstring: <strong>{$supportsMBString}</strong>]]></message>
+	<message key="installer.allowFileUploads"><![CDATA[Il server consente al momento di caricare i file: <strong>{$allowFileUploads}</strong>]]></message>
+	<message key="installer.maxFileUploadSize"><![CDATA[Il server consente al momento di caricare un file le cui dimensioni massime sono: <strong>{$maxFileUploadSize}</strong>]]></message>
+	<message key="installer.localeInstructions">La lingua principale da utilizzare per questo sistema. Per favore, consulta la documentazione OMP se sei interessato al supporto di lingue non elencate.</message>
+	<message key="installer.additionalLocalesInstructions">Selezionare altre lingue aggiuntive da supportare in questo sistema. Queste lingue saranno disponibili per l'uso dalle Ppress ospitate sul sito. Altre lingue possono essere installate in qualsiasi momento dall'interfaccia di amministrazione del sito. I parametri contrassegnati con un * possono essere incompleti..</message>
+	<message key="installer.filesDirInstructions"><![CDATA[Inserisci il percorso completo per la cartella in cui vuoi che vengano salvati i file scaricati. Questa cartella non dovrebbe essere direttamente accessibile via web. <strong>Per favore, prima dell'installazione assicurati che la cartella esista e sia scrivibile.</strong> I nomi dei percorsi Windows dovrebbero usare i forward slashes, per esempio "C:/mypress/files".]]></message>
+	<message key="installer.databaseSettingsInstructions">OMP richiede l'accesso ad un database SQL per conservare i suoi dati. Vedi i requisiti di sistema sopra indicati per avere la lista dei database supportati. Nei campi che seguono, fornisci i parametri necessari per la connessione al database.</message>
+	<message key="installer.upgradeApplication">Aggiorna Open Monograph Press</message>
+	<message key="installer.overwriteConfigFileInstructions"><![CDATA[<h4>IMPORTANTE!</h4><p>Il programma di installazione potrebbe non riuscire a sovrascrivere il file di configurazione. Prima di tentare di utilizzare il sistema, apri il file <tt> config.inc.php </ tt> con un editor testuale e sostituisci il contenuto con il contenuto sottostante.</p><p>The installer could not automatically overwrite the configuration file. Before attempting to use the system, please open <tt>config.inc.php</tt> in a suitable text editor and replace its contents with the contents of the text field below.</p>]]></message>
+	<message key="installer.installationComplete"><![CDATA[<p>L'installazione di OMP è stata completata con successo.</p><p>Per iniziare a utilizzare il sistema, <a href="{$loginUrl}">effettua il login</a> con il nome utente e la password inseriti nella pagina precedente.</p><p>Se vuoi ricevere notizie e aggiornamenti, per favore <strong> registrati qui <a href="http://pkp.sfu.ca/omp/register" target="_blank">http://pkp.sfu.ca/omp/register</a>.</strong> Se hai domande o commenti da fare, per favore visita il <a href="http://pkp.sfu.ca/support/forum" target="_blank">forum di supporto</a>.</p>]]></message>
+	<message key="installer.upgradeComplete"><![CDATA[<p>L'aggiornamento di OMP alla versione {$version} è stato completato con successo. </p><p>Nel file di configurazione config.inc.php non dimenticare di impostare a <em>On</em> il parametro "installato"</p><p> Se non ti sei già registrato e desideri ricevere news e aggiornamenti, per favore <strong>registrati qui <a href="http://pkp.sfu.ca/omp/register" target="_blank">http://pkp.sfu.ca/omp/register</a>.</strong> Se hai domande o commenti, per favore visita il <a href="http://pkp.sfu.ca/support/forum" target="_blank">forum di supporto</a>.</p>]]></message>
+	<!-- Monograph Logs -->
+	<message key="log.review.reviewCleared">The round {$round} review by {$reviewerName} for submission {$submissionId} has been cleared.</message>
+	<message key="log.review.reviewDueDateSet">The due date for the round {$round} review of submission {$submissionId} by {$reviewerName} has been set to {$dueDate}.</message>
+	<message key="log.review.reviewDeclined">{$reviewerName} has declined the round {$round} review for submission {$submissionId}.</message>
+	<message key="log.review.reviewAccepted">{$reviewerName} has accepted the round {$round} review for submission {$submissionId}.</message>
+	<message key="log.review.reviewUnconsidered">{$editorName} has marked the round {$round} review for submission {$submissionId} as unconsidered.</message>
+	<message key="log.editor.decision">An editor decision ({$decision}) for monograph {$submissionId} was recorded by {$editorName}.</message>
+	<message key="log.editor.archived">The submission {$submissionId} has been archived.</message>
+	<message key="log.editor.restored">The submission {$submissionId} has been restored to the queue.</message>
+	<message key="log.editor.editorAssigned">{$editorName} has been assigned as editor to submission {$submissionId}.</message>
+	<message key="log.proofread.assign">{$assignerName} has assigned {$proofreaderName} to proofread submission {$submissionId}.</message>
+	<message key="log.proofread.complete">{$proofreaderName} has submitted {$submissionId} for scheduling.</message>
+	<message key="log.imported">{$userName} has imported monograph {$submissionId}.</message>
+
+	<message key="log.editor.submissionExpedited">{$editorName} has expedited the editing process for monograph {$submissionId}.</message>
+
+	<!-- Notifications -->
+	<message key="notification.addedIdentificationCode">Codice di identificazione aggiunto.</message>
+	<message key="notification.editedIdentificationCode">Codice di identificazione modificato.</message>
+	<message key="notification.removedIdentificationCode">Codice di identificazione rimosso.</message>
+	<message key="notification.addedPublicationDate">Data di pubblicazione aggiunta.</message>
+	<message key="notification.editedPublicationDate">Data di pubblicazione modificata.</message>
+	<message key="notification.removedPublicationDate">Data di pubblicazione rimossa.</message>
+	<message key="notification.addedPublicationFormat">Formato di pubblicazione aggiunto.</message>
+	<message key="notification.editedPublicationFormat">Formato di pubblicazione modificato.</message>
+	<message key="notification.removedPublicationFormat">Formato di pubblicazione rimosso.</message>
+	<message key="notification.addedSalesRights">Diritti di vendita aggiunti.</message>
+	<message key="notification.editedSalesRights">Diritti di vendita modificati.</message>
+	<message key="notification.removedSalesRights">Diritti di vendita rimossi.</message>
+	<message key="notification.addedRepresentative">Rappresentante aggiunto.</message>
+	<message key="notification.editedRepresentative">Rappresentante modificato.</message>
+	<message key="notification.removedRepresentative">Rappresentante rimosso.</message>
+	<message key="notification.addedMarket">Mercato aggiunto.</message>
+	<message key="notification.editedMarket">Mercato modificato.</message>
+	<message key="notification.removedMarket">Mercato rimosso.</message>
+	<message key="notification.addedSpotlight">Spotlight aggiunto.</message>
+	<message key="notification.editedSpotlight">Spotlight modificato.</message>
+	<message key="notification.removedSpotlight">Spotlight rimosso.</message>	
+	<message key="notification.savedCatalogMetadata">Metadati del Catalogo salvati.</message>
+	<message key="notification.savedPublicationFormatMetadata">Metadati del formato di pubblicazione salavti.</message>
+	<message key="notification.mailListDescription">Inserisci il tuo indirizzo email per ricevere le notifiche appena nuovi contenuti vengono aggiunti alla Press.</message>
+	<message key="notification.notificationsPublicDescription">Questa pagina include gli aggiornamenti associati a questa Press, come le nuove monografie o le nuove collane. Puoi ricevere le notifiche degli aggiornamenti sottoscrivendo i feed RSS (cliccando sull'immagine a destra), oppure <![CDATA[ <a href="{$emailUrl}">attraverso la email.</a>]]></message>
+	<message key="notification.proofsApproved">Bozze approvate.</message>
+	<message key="notification.removedSubmission">Proposta cancellata.</message>
+	
+	<message key="notification.removedFooterLink">Link a piè di pagina rimosso.</message>
+	
+	<!-- Notification Types -->
+	<message key="notification.type.submissionSubmitted">Una nuova monografia, "{$title}," è stata proposta.</message>
+	<message key="notification.type.editing">Modifica eventi</message>
+	<message key="notification.type.reviewing">Revisione di Eventi</message>
+	<message key="notification.type.site">Eventi del Sito</message>
+	<message key="notification.type.submissions">Eventi per la Proposta</message>
+	<message key="notification.type.userComment">Un lettore ha lasciato un commento su "{$title}".</message>
+	<message key="notification.type.editorAssignmentTask">È stata proposta una nuova Monografia, a cui occorre assegnare un editor.</message>
+	<message key="notification.type.copyeditorRequest">Sei stato sollecitato a fare il copyediting per "{$file}".</message>
+	<message key="notification.type.layouteditorRequest">Sei stato sollecitato a rivedere il layout per "{$title}".</message>
+	<message key="notification.type.indexRequest">Sei stato sollecitato a creare un indice per "{$title}".</message>
+	<message key="notification.type.editorDecisionInternalReview">Processo di valutazione interno cominciato.</message>
+	<message key="notification.type.roundStatusTitle">Status del Round {$round}</message>
+	<message key="notification.type.approveSubmission">Questa proposta è in attesa di approvazione all'interno del tool "Catalogo Entry", prima che apparirà nel Catalogo pubblico.</message>
+	<message key="notification.type.approveSubmissionTitle">In attesa di approvazione.</message>
+	<message key="notification.type.formatNeedsApprovedSubmission">I metadati per la voce di catalogo devono essere approvati prima che il formato di pubblicazione venga incluso nel catalogo. Per approvare i metadati del catalogo, clicca sulla scheda Monografia sopra.</message>
+	<message key="notification.type.configurePaymentMethod.title">Nessun metodo di pagamento configurato.</message>
+	<message key="notification.type.configurePaymentMethod">È necessario definire una modalità di pagamento prima di definire i parametri del commercio elettronico.</message>
+	<message key="notification.type.visitCatalog">La monografia è stata approvata. Per favore, visita il Catalogo per gestire i dettagli, usando il link qui sopra.</message>
+	<message key="notification.type.visitCatalogTitle">Gestione del Catalogo</message>
+
+	<message key="notification.type.metadataModified">I metadati di "{$title}" sono stati modificati.</message>
+	<message key="notification.type.reviewerComment">Un revisore ha lasciato un commento su "{$title}".</message>
+
+	<!-- Authorization -->
+	<message key="user.authorization.invalidReviewAssignment">Non puoi accedere perché non sei un revisore di questa monografia.</message>
+	<message key="user.authorization.monographAuthor">Non puoi accedere perché non sei l'autore di questa monografia.</message>
+	<message key="user.authorization.monographReviewer">Non puoi accedere perché non sei uno dei revisori assegnati a questa monografia.</message>
+	<message key="user.authorization.monographFile">Non puoi accedere al file associato alla monografia.</message>
+	<message key="user.authorization.invalidMonograph">Hai richiesto una Monografia non valida o inesistente!</message>
+	<message key="user.authorization.noContext">Nessuna Press!</message>
+	<message key="user.authorization.seriesAssignment">Stai cercando di accedere ad una monografia che non fa parte di questa collana.</message>
+	<message key="user.authorization.workflowStageAssignmentMissing">Accesso negato! Non sei stato assegnato a questo stadio del flusso di lavoro.</message>
+	<message key="user.authorization.workflowStageSettingMissing">Accesso negato! Il gruppo di utenti a cui appartieni non è stato assegnato a questo stadio del flusso di lavoro. Per favore, verifica le tue impostazioni .</message>
+
+	<message key="payment.directSales">Scarica dal sito web della Press</message>
+	<message key="payment.directSales.price">Prezzo</message>
+	<message key="payment.directSales.availability">Disponibilità</message>
+	<message key="payment.directSales.catalog">Catalogo</message>
+	<message key="payment.directSales.approved">Approvato</message>
+	<message key="payment.directSales.priceCurrency">Prezzo ({$currency})</message>
+	<message key="payment.directSales.numericOnly">Prices should be numeric only. Do not include currency symbols.</message>	
+	<message key="payment.directSales.directSales">Vendita diretta</message>
+	<message key="payment.directSales.amount">{$amount} ({$currency})</message>
+	<message key="payment.directSales.notAvailable">Non disponibile</message>
+	<message key="payment.directSales.notSet">Non stabilito</message>
+	<message key="payment.directSales.openAccess">Open Access</message>
+	<message key="payment.directSales.price.description">I formati di file possono essere resi disponibili per il download dal sito web della Press in modalità Open Access, a costo zero per i lettori, oppure messi in vendita diretta (utilizzando una modalità di pagamento online, come configurato in Distribuzione). Per questo file indicare la base di accesso.</message>
+	<message key="payment.directSales.validPriceRequired">Occorre indicare un numero valido per il prezzo.</message>
+	<message key="payment.directSales.purchase">Acquista ({$amount} {$currency})</message>
+	<message key="payment.directSales.download">Scarica</message>
+	<message key="payment.directSales.monograph.name">Acquista la monografia o scarica un capitolo</message>
+	<message key="payment.directSales.monograph.description">Questa operazione è per l'acquisto del download di una singola monografia o capitolo di monografia.</message>
+
+	<!-- Debug messages -->
+	<message key="debug.notes.currencyListLoad">Lista delle valute "{$filename}" caricate da XML</message>
+	<message key="debug.notes.helpMappingLoad">Reloaded XML help mapping file {$filename} in search of {$id}.</message>
+
+	<!-- RT Entities -->
+	<message key="rt.metadata.pkp.dctype">Libro</message>
+
+	<!-- General plugin information -->
+	<message key="plugins.categories.viewableFiles">Plugin per i file pubblicati</message>
+	<message key="plugins.categories.viewableFiles.description">Plugin Published File Plugins add support for displaying different document types inline, e.g. using PDF embedding.</message>
+	<message key="submission.pdf.download">Scarica questo file PDF</message>
+
+	<message key="user.profile.form.showOtherContexts">Register with other presses</message>
+	<message key="user.profile.form.hideOtherContexts">Hide other presses</message>
+	
+	
+</locale>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+* locale/it_IT/default.xml
+*
+* Copyright (c) 2014 Simon Fraser University Library
+* Copyright (c) 2003-2014 John Willinsky
+* Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+*
+* Localization strings (Default settings for setup items.).
+-->
+
+<locale name="it_IT" full_name="Italiano">
+<!-- Genre defaults -->
+<message key="default.genres.appendix">Appendice</message>
+<message key="default.genres.bibliography">Bibliografia</message>
+<message key="default.genres.manuscript">Libro manoscritto</message>
+<message key="default.genres.chapter">Capitolo manoscritto</message>
+<message key="default.genres.glossary">Glossario</message>
+<message key="default.genres.index">Indice</message>
+<message key="default.genres.preface">Prefazione</message>
+<message key="default.genres.prospectus">Prospetto</message>
+<message key="default.genres.table">Tavola</message>
+<message key="default.genres.figure">Figura</message>
+<message key="default.genres.photo">Foto</message>
+<message key="default.genres.illustration">Illustrazione</message>
+<message key="default.genres.other">Altro</message>
+
+<!-- Group defaults -->
+<message key="default.groups.name.author">Autore</message>
+<message key="default.groups.plural.author">Autori</message>
+<message key="default.groups.name.manager">Press manager</message>
+<message key="default.groups.plural.manager">Press managers</message>
+<message key="default.groups.abbrev.manager">PM</message>
+<message key="default.groups.name.editor">Press editor</message>
+<message key="default.groups.plural.editor">Press editors</message>
+<message key="default.groups.abbrev.editor">PE</message>
+<message key="default.groups.name.seriesEditor">Series editor</message>
+<message key="default.groups.plural.seriesEditor">Series editors</message>
+<message key="default.groups.abbrev.seriesEditor">AcqE</message>
+<message key="default.groups.name.chapterAuthor">Autore di un capitolo</message>
+<message key="default.groups.plural.chapterAuthor">Autori di un capitolo</message>
+<message key="default.groups.abbrev.chapterAuthor">CA</message>
+<message key="default.groups.name.volumeEditor">Curatore del Libro</message>
+<message key="default.groups.plural.volumeEditor">Curatori del Libro</message>
+<message key="default.groups.abbrev.volumeEditor">VE</message>
+
+<!-- Default press settings -->
+<message key="default.pressSettings.checklist.notPreviouslyPublished">Il documento sottomesso non è stato precedentemente pubblicato, né è stato sottoposto ad altro editore (oppure vedi il chiarimento dato in Commenti dall'Editore).</message>
+<message key="default.pressSettings.checklist.fileFormat">Il file del documento sottomesso è nei formati Microsoft Word, RTF, OpenDocument o WordPerfect.</message>
+<message key="default.pressSettings.checklist.addressesLinked">Qualora disponibili, sono state fornite le URL per la consultazione.</message>
+<message key="default.pressSettings.checklist.submissionAppearance">Il testo è pubblicato a interlinea singola; utilizza un font di 12 punti; impiega il carattere corsivo anziché sottolineare (a parte gli indirizzi URL); tutte le illustrazioni, le figure e le tabelle sono posizionate all'interno del testo nei punti appropriati e non messi alla fine del testo.</message>
+<message key="default.pressSettings.checklist.bibliographicRequirements"><![CDATA[Il testo è conforme ai requisiti stilistici e bibliografici dichiarati nelle <a href="{$indexUrl}/{$pressPath}/about/submissions#authorGuidelines" target="_blank">Linee guida per l'Autore</a>, che si trovano nella rubrica A proposito di questa edizione.]]></message>
+<message key="default.pressSettings.privacyStatement">I nomi e gli indirizzi email inseriti in questo sito editoriale verranno utilizzati esclusivamente per gli scopi dichiarati e non saranno utilizzati per altri scopi o trasmessi a terzi..</message>
+<message key="default.pressSettings.openAccessPolicy">Tutti i contenuti presenti su questo sito sono ad accesso aperto, in base al principio che la ricerca deve essere liberamente disponibile in modo da favorire lo scambio di conoscenze su scala mondiale.</message>
+<message key="default.pressSettings.emailHeader"><![CDATA[Questo messaggio è stato inviato a nome di {$pressName}.
+________________________________________________________________________
+]]></message>
+<message key="default.pressSettings.emailSignature"><![CDATA[
+________________________________________________________________________
+{$pressName}
+{$indexUrl}/{$pressPath}
+]]></message>
+<message key="default.pressSettings.forReaders"><![CDATA[Invitiamo i lettori a iscriversi al servizio di notifiche di questo sito. Per far ciò occorre utilizzare il link <a href="{$indexUrl}/{$pressPath}/user/register">Registrati</a> che si trova nella parte superiore della homepage. La registrazione consentirà a chi lo desidera di ricevere via email l'Indice di ogni nuova monografia pubblicata sul sito. Nello stesso tempo, questo elenco consentirà al nostro sito di conoscere il numero dei propri lettori. Leggi la <a href="{$indexUrl}/{$pressPath}/about/submissions#privacyStatement">Dichiarazione sulla privacy</a> che assicura i lettori sul fatto che il loro nome e l'indirizzo e-mail non saranno utilizzati per altri scopi.]]></message>
+<message key="default.pressSettings.forAuthors"><![CDATA[Sei un docente del nostro Ateneo e vuoi inviare un tuo lavoro a fedOAPress? Si raccomanda di rileggere la pagina <a href="{$indexUrl}/{$pressPath}/about">Informazioni sul Sito</a> per vedere le politiche del nostro Sito e di leggere la pagina <a href="{$indexUrl}/{$pressPath}/about/submissions#authorGuidelines">Linee Guida per gli Autori</a>. Gli autori devono <a href="{$indexUrl}/{$pressPath}/user/register">registrarsi</a> sul sito prima di inviare i propri lavori, o se già registrati possono semplicemente <a href="{$indexUrl}/index/login">accedere</a> e iniziare il processo di immissione in 5 fasi..]]></message>
+<message key="default.pressSettings.forLibrarians"><![CDATA[Incoraggiamo i bibliotecari di ricerca ad inserire questa Press nella lista delle risorse elettroniche possedute dalla biblioteca. Inoltre, questo sistema di pubblicazione open source, oltre che conveniente, può essere utilizzato da docenti e ricercatori anche per le pubblicazioni di cui hanno la curatela (vedi <a href="http://pkp.sfu.ca/omp">Open Monograph Press</a>).]]></message>
+</locale>
