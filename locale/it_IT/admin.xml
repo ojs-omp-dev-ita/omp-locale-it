@@ -4,26 +4,25 @@
 <!--
   * locale/en_US/admin.xml
   *
-  * Copyright (c) 2014 Simon Fraser University Library
-  * Copyright (c) 2003-2014 John Willinsky
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings (Site administration).
+  * Translation By ojs-omp-dev-ita
   -->
 
 <locale name="it_IT" full_name="Italiano">
-	<message key="admin.hostedPresses">Press ospitate sul server</message>
-	<message key="admin.settings.pressRedirect">Reindirizzamento della Press</message>
-	<message key="admin.settings.pressRedirectInstructions">Le richieste al sito principale verranno reindirizzate presso questa stampa. Questo può essere utile se, ad esempio, il sito ospita una sola stampa.</message>
+	<message key="admin.hostedPresses">Case editrici ospitate sul server</message>
+	<message key="admin.settings.pressRedirect">Reindirizzamento della Casa Editrice</message>
+	<message key="admin.settings.pressRedirectInstructions">Le richieste al sito principale verranno reindirizzate presso questa casa editrice. Questo può essere utile se, ad esempio, il sito ospita una sola casa editrice.</message>
 	<message key="admin.settings.noPressRedirect">Non reindirizzare</message>
 
-	<message key="admin.languages.primaryLocaleInstructions">Questa sarà la lingua predefinita per il sito e per qualsiasi Press ospitata.</message>
-	<message key="admin.languages.supportedLocalesInstructions">Selezionare tutti i parametri che saranno supportati sul sito. Tutte le Press ospitate sul sito potranno utilizzare i parametri selezionati. Questi ultimi faranno parte del menu per selezionare la lingua che appare in tutte le pagine del sito (che possono essere sovrascritte sulle pagine di una specifica Press). Se non si selezionano più parametri, il pulsante per il menu della lingua non apparirà e le Press non avranno accesso alle impostazioni di lingua avanzate.</message>
+	<message key="admin.languages.primaryLocaleInstructions">Questa sarà la lingua predefinita per il sito e per qualsiasi Casa Editrice ospitata.</message>
+	<message key="admin.languages.supportedLocalesInstructions">Selezionare tutti i parametri che saranno supportati sul sito. Tutte le Case Editrici ospitate sul sito potranno utilizzare i parametri selezionati. Questi ultimi faranno parte del menu per selezionare la lingua che appare in tutte le pagine del sito (che possono essere sovrascritte sulle pagine di una specifica Press). Se non si selezionano più parametri, il pulsante per il menu della lingua non apparirà e le Case Editrici non avranno accesso alle impostazioni di lingua avanzate.</message>
 	<message key="admin.locale.maybeIncomplete">* I parametri contrassegnati possono essere incompleti.</message>
-	<message key="admin.languages.confirmUninstall">Sei certo di voler disinstallare questo parametro? Questo può influenzare eventuali Press che utilizzano al momento questo parametro.</message>
-	<message key="admin.languages.installNewLocalesInstructions">
-	Selezionare eventuali ulteriori locale per installare il supporto per questo sistema. Locali devono essere installati prima di poter essere utilizzati da press ospitati. Vedere la documentazione OMP per informazioni sull'aggiunta di supporto per nuove lingue
-	Select any additional locales to install support for in this system. Locales must be installed before they can be used by hosted presses. See the OMP documentation for information on adding support for new languages.</message>
+	<message key="admin.languages.confirmUninstall">Sei certo di voler disinstallare questo parametro? Questo può influenzare eventuali Case Editrici che utilizzano al momento questo parametro.</message>
+	<message key="admin.languages.installNewLocalesInstructions">Selezionare eventuali ulteriori localizzazioni per installare il supporto per questo sistema. Le localizzazioni devono essere installate prima di poter essere utilizzate da case editrici ospitate. Vedere la documentazione OMP per informazioni sull'aggiunta di supporto per nuove lingue.</message>
 	<message key="admin.languages.noLocalesToDownload">Nessun parametro è disponibile per il download.</message>
 	<message key="admin.languages.downloadFailed">Il download del parametro è fallito. Il messaggio d'errore che segue descrive il problema.</message>
 	<message key="admin.languages.downloadUnavailable"><![CDATA[<p>Il download dei moduli linguistici dal web server del Public Knowledge Project non è al momento disponibile perché:</p>
@@ -33,31 +32,24 @@
 	</ul>
 <p>I pacchetti per la Lingua possono essere scaricati a mano dal <a href="http://pkp.sfu.ca" target="_blank">sito web di PKP</a>.</p>]]]></message>
 
-	<message key="admin.languages.confirmDisable">Sei certo di voler disinstallare questo parametro? Questo può influenzare eventuali stampe che utilizzano al momento questo parametro.</message>
+	<message key="admin.languages.confirmDisable">Sei certo di voler disinstallare questo parametro? Questo può influenzare eventuali Case Editrici che utilizzano al momento questo parametro.</message>
 
 	<message key="admin.systemVersion">Versione OMP</message>
 	<message key="admin.systemConfiguration">Configurazione OMP</message>
-	<message key="admin.systemConfigurationDescription"><![CDATA[settaggi per la configurazione di OMP da <tt>config.inc.php</tt>.]]></message>
-	<message key="admin.presses.pressSettings">Configurazione della Press</message>
-	<message key="admin.presses.noneCreated">Non è stata creata nessuna Press.</message>
-	<message key="admin.contexts.confirmDelete">Sei sicuro di voler cancellare in modo permanente questa Press e tutti i suoi contenuti?</message>
-	<message key="admin.contexts.create">Creare una Press</message>
-	<message key="admin.presses.createInstructions">Verrai automaticamente iscritto come Manager di questa Press. Dopo aver creato una nuova Press, verrai reindirizzato alla sua procedura guidata delle impostazioni che serve a completare la configurazione iniziale.</message>
+	<!--message key="admin.systemConfigurationDescription"><![CDATA[settaggi per la configurazione di OMP da <tt>config.inc.php</tt>.]]></message-->
+	<message key="admin.presses.pressSettings">Configurazione della Casa Editrice</message>
+	<message key="admin.presses.noneCreated">Non è stato creato nessuna Casa Editrice.</message>
+	<message key="admin.contexts.confirmDelete">Sei sicuro di voler cancellare in modo permanente questa Casa Editrice e tutti i suoi contenuti?</message>
+	<message key="admin.contexts.create">Creare una Casa Editrice</message>
+	<message key="admin.presses.createInstructions">Verrai automaticamente iscritto come Manager di questa Casa Editrice. Dopo aver creato una nuova Casa Editrice, verrai reindirizzato alla sua procedura guidata delle impostazioni che serve a completare la configurazione iniziale.</message>
 	<message key="admin.presses.urlWillBe">L'indirizzo URL della press URL sarà {$sampleUrl}</message>
 	<message key="admin.contexts.form.titleRequired">È obbligatorio scegliere un titolo.</message>
 	<message key="admin.contexts.form.pathRequired">È obbligatorio scegliere un path (percorso).</message>
 	<message key="admin.contexts.form.pathAlphaNumeric">Il path può contenere solo caratteri alfanumerici, underscore e trattini, e deve iniziare e finire con un carattere alfanumerico.</message>
-	<message key="admin.contexts.form.pathExists">Il path selezionato è già stato usato da un'altro press.</message>
-	<message key="admin.presses.enablePressInstructions">Abilitare questa press ad apparire pubblicamente sul sito</message>
-	<message key="admin.presses.pressDescription">Descrizione della Press</message>
-	<message key="admin.presses.addPress">Aggiungi Press</message>
-
-
-	<message key="admin.settings.oaiRegistrationDescription"><![CDATA[Per fare in modo che i contenuti di tutte le Press contenute in questo sito vengano indicizzati all'interno di un sistema di database di ricerca distribuito a livello mondiale, <a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">registra</a> l'indirizzo URL della vostra Press, per far sì che venga utilizzato dall' <a href="http://pkp.sfu.ca/harvester/" target="_blank">harvester</a> di metadati del Public Knowledge Project. Questo strumento raccoglie i metadati di ogni item indicizzato nella Press, rendendo possibile una ricerca accurata e distribuitaa tra i siti di ricerca che aderiscono alla <a href="http://www.openarchives.org/OAI/openarchivesprotocol.htm#Introduction" target="_blank">Open Archives Initiative Protocol for Metadata Harvesting</a>.
-<br /><br />
-<a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">Clicca qui</a> e inserisci <span class="highlight">{$siteUrl}</span> in <strong>Indirizzo URL del sito</strong>, e <span class="highlight">{$oaiUrl}</span> in <strong>Base URL per OAI Archive</strong>.
-<br /><br />
-Nota che l'interfaccia OAI può essere disabilitata per questo sito modificando la configurazione del sistema OMP. Le versioni future di OMP permetteranno all'interfaccia OAI di abilitare o disabilitare le singole Press all'interno del sito..]]></message>
+	<message key="admin.contexts.form.pathExists">Il path selezionato è già stato usato da un'altra Casa Editrice.</message>
+	<message key="admin.presses.enablePressInstructions">Abilitare questa Casa Editrice ad apparire pubblicamente sul sito</message>
+	<message key="admin.presses.pressDescription">Descrizione della Casa Editrice</message>
+	<message key="admin.presses.addPress">Aggiungi una Casa Editrice</message>
 
 	<!-- System Information -->
 	<message key="admin.overwriteConfigFileInstructions"><![CDATA[<h4>NOTE!</div>

@@ -9,6 +9,7 @@
 * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
 *
 * Localization strings (Default settings for setup items.).
+* Localization by ojs-omp-dev-ita
 -->
 
 <locale name="it_IT" full_name="Italiano">
@@ -28,16 +29,14 @@
 <message key="default.genres.other">Altro</message>
 
 <!-- Group defaults -->
-<message key="default.groups.name.author">Autore</message>
-<message key="default.groups.plural.author">Autori</message>
 <message key="default.groups.name.manager">Press manager</message>
 <message key="default.groups.plural.manager">Press managers</message>
 <message key="default.groups.abbrev.manager">PM</message>
 <message key="default.groups.name.editor">Press editor</message>
 <message key="default.groups.plural.editor">Press editors</message>
 <message key="default.groups.abbrev.editor">PE</message>
-<message key="default.groups.name.seriesEditor">Series editor</message>
-<message key="default.groups.plural.seriesEditor">Series editors</message>
+<message key="default.groups.name.seriesEditor">Curatore delle Collane</message>
+<message key="default.groups.plural.seriesEditor">Curatori delle Collane</message>
 <message key="default.groups.abbrev.seriesEditor">AcqE</message>
 <message key="default.groups.name.chapterAuthor">Autore di un capitolo</message>
 <message key="default.groups.plural.chapterAuthor">Autori di un capitolo</message>
@@ -64,5 +63,11 @@ ________________________________________________________________________
 ]]></message>
 <message key="default.pressSettings.forReaders"><![CDATA[Invitiamo i lettori a iscriversi al servizio di notifiche di questo sito. Per far ciò occorre utilizzare il link <a href="{$indexUrl}/{$pressPath}/user/register">Registrati</a> che si trova nella parte superiore della homepage. La registrazione consentirà a chi lo desidera di ricevere via email l'Indice di ogni nuova monografia pubblicata sul sito. Nello stesso tempo, questo elenco consentirà al nostro sito di conoscere il numero dei propri lettori. Leggi la <a href="{$indexUrl}/{$pressPath}/about/submissions#privacyStatement">Dichiarazione sulla privacy</a> che assicura i lettori sul fatto che il loro nome e l'indirizzo e-mail non saranno utilizzati per altri scopi.]]></message>
 <message key="default.pressSettings.forAuthors"><![CDATA[Sei un docente del nostro Ateneo e vuoi inviare un tuo lavoro a fedOAPress? Si raccomanda di rileggere la pagina <a href="{$indexUrl}/{$pressPath}/about">Informazioni sul Sito</a> per vedere le politiche del nostro Sito e di leggere la pagina <a href="{$indexUrl}/{$pressPath}/about/submissions#authorGuidelines">Linee Guida per gli Autori</a>. Gli autori devono <a href="{$indexUrl}/{$pressPath}/user/register">registrarsi</a> sul sito prima di inviare i propri lavori, o se già registrati possono semplicemente <a href="{$indexUrl}/index/login">accedere</a> e iniziare il processo di immissione in 5 fasi..]]></message>
-<message key="default.pressSettings.forLibrarians"><![CDATA[Incoraggiamo i bibliotecari di ricerca ad inserire questa Press nella lista delle risorse elettroniche possedute dalla biblioteca. Inoltre, questo sistema di pubblicazione open source, oltre che conveniente, può essere utilizzato da docenti e ricercatori anche per le pubblicazioni di cui hanno la curatela (vedi <a href="http://pkp.sfu.ca/omp">Open Monograph Press</a>).]]></message>
+<message key="default.pressSettings.forLibrarians"><![CDATA[Incoraggiamo i bibliotecari di ricerca ad inserire questa Casa Editrice nella lista delle risorse elettroniche possedute dalla biblioteca. Inoltre, questo sistema di pubblicazione open source, oltre che conveniente, può essere utilizzato da docenti e ricercatori anche per le pubblicazioni di cui hanno la curatela (vedi <a href="http://pkp.sfu.ca/omp">Open Monograph Press</a>).]]></message>
+	<message key="default.pressSettings.manager.setup.category">Categoria</message>
+	<message key="default.pressSettings.manager.series.book">Collane</message>
+
+	<message key="default.groups.name.externalReviewer">Revisore Esterno</message>
+	<message key="default.groups.plural.externalReviewer">Revisori Esterni</message>
+	<message key="default.groups.abbrev.externalReviewer">ER</message>
 </locale>

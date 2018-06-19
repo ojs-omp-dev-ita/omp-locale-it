@@ -12,70 +12,63 @@
 -->
 
 <locale name="it_IT" full_name="Italiano">
-<message key="editor.pressSignoff">Sessione terminata</message>
-<message key="editor.submissionArchive">Archivio di caricamento</message>
-<message key="editor.monograph.cancelReview">Annulla la richiesta</message>
-<message key="editor.monograph.clearReview">Cancella il recensore</message>
-<message key="editor.monograph.enterRecommendation">Inserisci la raccomandazione</message>
-<message key="editor.monograph.enterReviewerRecommendation">Inserisci la raccomandazione del recensore</message>
-<message key="editor.monograph.recommendation">Raccomandazione</message>
-<message key="editor.monograph.selectReviewerInstructions">Seleziona un recensore qui in alto e poi clicca su "Scegli un recensore" per continuare.</message>
-<message key="editor.submission.selectedReviewer">Recensore selezionato</message>
-<message key="editor.monograph.replaceReviewer">Sostituire il recensore</message>
-<message key="editor.monograph.editorToEnter">L'Editor deve inserire la sua raccomandazione o i suoi commenti per il recensore</message>
-<message key="editor.monograph.uploadReviewForReviewer">Carica la recensione</message>
-<message key="editor.monograph.peerReviewOptions">Opzioni per la Peer Review </message>
-<message key="editor.monograph.selectProofreadingFiles">Files per la correzione delle bozze</message>
-<message key="editor.monograph.internalReview">Procedere alla valutazione interna</message>
-<message key="editor.monograph.internalReviewDescription">Si sta per avviare una valutazione interna per questa immissione. I file che fanno parte della immissione sono elencati di seguito e possono essere selezionati per la valutazione.</message>
-<message key="editor.monograph.externalReview">Procedere alla valutazione esterna</message>
-<message key="editor.submissions.lastAssigned">Il più recente</message>
-<message key="editor.monograph.final.selectFinalDraftFiles">Selezionare il file per la bozza finale</message>
-<message key="editor.monograph.final.currentFiles">File corrente per la bozza finale</message>
-<message key="editor.monograph.copyediting.currentFiles">File correnti</message>
-<message key="editor.monograph.copyediting.personalMessageToUser">Messaggio all'utente</message>
+	<message key="editor.submissionArchive">Archivio di caricamento</message>
+	<message key="editor.monograph.cancelReview">Annulla la richiesta</message>
+	<message key="editor.monograph.clearReview">Cancella il recensore</message>
+	<message key="editor.monograph.enterRecommendation">Inserisci la raccomandazione</message>
+	<message key="editor.monograph.enterReviewerRecommendation">Inserisci la raccomandazione del recensore</message>
+	<message key="editor.monograph.recommendation">Raccomandazione</message>
+	<message key="editor.monograph.selectReviewerInstructions">Seleziona un recensore qui in alto e poi clicca su "Scegli un recensore" per continuare.</message>
+	<message key="editor.submission.selectedReviewer">Recensore selezionato</message>
+	<message key="editor.monograph.replaceReviewer">Sostituire il recensore</message>
+	<message key="editor.monograph.editorToEnter">L'Editor deve inserire la sua raccomandazione o i suoi commenti per il recensore</message>
+	<message key="editor.monograph.uploadReviewForReviewer">Carica la recensione</message>
+	<message key="editor.monograph.peerReviewOptions">Opzioni per la Peer Review </message>
+	<message key="editor.monograph.selectProofreadingFiles">Files per la correzione delle bozze</message>
+	<message key="editor.monograph.internalReview">Procedere alla valutazione interna</message>
+	<message key="editor.monograph.internalReviewDescription">Si sta per avviare una valutazione interna per questa immissione. I file che fanno parte della immissione sono elencati di seguito e possono essere selezionati per la valutazione.</message>
+	<message key="editor.monograph.externalReview">Procedere alla valutazione esterna</message>
+	<message key="editor.monograph.final.selectFinalDraftFiles">Selezionare il file per la bozza finale</message>
+	<message key="editor.monograph.final.currentFiles">File corrente per la bozza finale</message>
+	<message key="editor.monograph.copyediting.currentFiles">File correnti</message>
+	<message key="editor.monograph.copyediting.personalMessageToUser">Messaggio all'utente</message>
+	
+	<!-- Editorial Legend -->
+	<message key="editor.monograph.legend.submissionActions">Azioni per il caricamento</message>
+	<message key="editor.monograph.legend.submissionActionsDescription">Azioni e opzioni per il caricamento complessivo.</message>
+	<message key="editor.monograph.legend.sectionActions">Azioni per la sezione</message>
+	<message key="editor.monograph.legend.sectionActionsDescription">Opzioni particolari per una certa sezione, come ad esempio caricamento di file o aggiunta di utenti.</message>
+	<message key="editor.monograph.legend.itemActions">Azioni per i documenti</message>
+	<message key="editor.monograph.legend.itemActionsDescription">Azioni e opzioni particolari per un singolo file.</message>
+	<message key="editor.monograph.legend.catalogEntry">Visualizzare e gestire il caricamento del record, inclusi i metadati ed i formati di pubblicazione</message>
+	<message key="editor.monograph.legend.bookInfo">Visualizzare e gestire i metadati, le note, gli avvisi e lo storico del caricamento</message>
+	<message key="editor.monograph.legend.participants">Visualizzare e gestire tutti gli attori coinvolti nel caricamento: autori, editor, designer e altri</message>
+	<message key="editor.monograph.legend.add">Caricare un file nella sezione</message>
+	<message key="editor.monograph.legend.add_user">Aggiungere uh utente alla sezione</message>
+	<message key="editor.monograph.legend.settings">Visualizzare e accedere ai parametri del documento, come le opzioni relative alle informazioni e alla cancellazione</message>
+	<message key="editor.monograph.legend.more_info">Informazioni supplementari: note sui file, opzioni per le notifiche e storico</message>
+	<message key="editor.monograph.legend.notes_none">Informazioni sul file: note, opzioni per le notifiche e storico (al momento non ci sono note)</message>
+	<message key="editor.monograph.legend.notes">Informazioni sul file: note, opzioni per le notifiche e storico(note disponibili)</message>
+	<message key="editor.monograph.legend.notes_new">Informazioni sul file: note, opzioni per le notifiche e storico (dopo l'ultima visita sono state aggiunte nuove note)</message>
+	<message key="editor.monograph.legend.edit">Edita il documento</message>
+	<message key="editor.monograph.legend.delete">Cancella il documento</message>
+	<message key="editor.monograph.legend.in_progress">Azione in corso oppure non ancora completata</message>
+	<message key="editor.monograph.legend.complete">Azione completata</message>
+	<message key="editor.monograph.legend.uploaded">File caricato per il ruolo corrispondente per il titolo della colonna della griglia</message>
+	
+	<!-- Editorial related -->
+	<message key="editor.submission.introduction">Al momento del caricamento, l'editor, dopo aver consultato i file sottomessi dei fascicoli, sceglie l'azione appropriata (che comprende l'invio di una notifica all'autore) tra queste: Invia per una verifica interna (comporta la selezione dei file per una revisione interna); Invia per una verifica esterna (comporta la selezione dei file per una revisione esterna); Accetta il file sottomesso (comporta la selezione dei file per la fase editoriale); o Rifiuta il file sottomesso (archiviazione del file sottomesso).</message>
+	<message key="editor.monograph.editorial.fairCopy">Bella copia</message>
+	
+	<!-- Production/Proof related -->
+	<message key="editor.monograph.proofs">Prove</message>
+	<message key="editor.monograph.production.approvalAndPublishing">Approvazione e pubblicazione</message>
+	<message key="editor.monograph.production.approvalAndPublishingDescription">I libri possono essere pubblicati in diversi formati (copertina rigida, brossura e digitale), possono essere caricati nella sezione Formati Pubblicazione che segue. È possibile utilizzare la griglia formati di pubblicazione di sotto come una lista di controllo per ciò che deve ancora essere fatto per pubblicare un formato di pubblicazione.</message>
+	<message key="editor.monograph.production.publicationFormatDescription"><![CDATA[Aggiungi i formati di pubblicazione (ad esempio, digitale, brossura) per i quali il layout-editor prepara le bozze per la correzione. Occorre indicare che le <em>Bozze</em> sono state approvate e si deve controllare la voce di <em>catalogo</em> per il formato in questione, per indicare che questa voce è stata aggiunta alla voce di catalogo del libro, prima che il formato possa essere reso <em>disponibile</em> (cioè pubblicato).]]></message>
+	<message key="editor.monograph.approvedProofs.edit">Scegliere le modalità per il caricamento</message>
+	<message key="editor.monograph.approvedProofs.edit.linkTitle">Scegliere le modalità</message>
+	<message key="editor.monograph.proof.addNote">Aggiungi una risposta</message>
 
-<!-- Editorial Legend -->
-<message key="editor.monograph.legend.submissionActions">Azioni per il caricamento</message>
-<message key="editor.monograph.legend.submissionActionsDescription">Azioni e opzioni per il caricamento complessivo.</message>
-<message key="editor.monograph.legend.sectionActions">Azioni per la sezione</message>
-<message key="editor.monograph.legend.sectionActionsDescription">Opzioni particolari per una certa sezione, come ad esempio caricamento di file o aggiunta di utenti.</message>
-<message key="editor.monograph.legend.itemActions">Azioni per i documenti</message>
-<message key="editor.monograph.legend.itemActionsDescription">Azioni e opzioni particolari per un singolo file.</message>
-<message key="editor.monograph.legend.catalogEntry">Visualizzare e gestire il caricamento del record, inclusi i metadati ed i formati di pubblicazione</message>
-<message key="editor.monograph.legend.bookInfo">Visualizzare e gestire i metadati, le note, gli avvisi e lo storico del caricamento</message>
-<message key="editor.monograph.legend.participants">Visualizzare e gestire tutti gli attori coinvolti nel caricamento: autori, editor, designer e altri</message>
-<message key="editor.monograph.legend.add">Caricare un file nella sezione</message>
-<message key="editor.monograph.legend.add_user">Aggiungere uh utente alla sezione</message>
-<message key="editor.monograph.legend.settings">Visualizzare e accedere ai parametri del documento, come le opzioni relative alle informazioni e alla cancellazione</message>
-<message key="editor.monograph.legend.more_info">Informazioni supplementari: note sui file, opzioni per le notifiche e storico</message>
-<message key="editor.monograph.legend.notes_none">Informazioni sul file: note, opzioni per le notifiche e storico (al momento non ci sono note)</message>
-<message key="editor.monograph.legend.notes">Informazioni sul file: note, opzioni per le notifiche e storico(note disponibili)</message>
-<message key="editor.monograph.legend.notes_new">Informazioni sul file: note, opzioni per le notifiche e storico (dopo l'ultima visita sono state aggiunte nuove note)</message>
-<message key="editor.monograph.legend.edit">Edita il documento</message>
-<message key="editor.monograph.legend.delete">Cancella il documento</message>
-<message key="editor.monograph.legend.in_progress">Azione in corso oppure non ancora completata</message>
-<message key="editor.monograph.legend.complete">Azione completata</message>
-<message key="editor.monograph.legend.uploaded">File caricato per il ruolo corrispondente per il titolo della colonna della griglia</message>
-
-<!-- Editorial related -->
-<message key="editor.submission.introduction">Al momento del caricamento, l'editor, dopo aver consultato i file sottomessi dei fascicoli, sceglie l'azione appropriata (che comprende l'invio di una notifica all'autore) tra queste: Invia per una verifica interna (comporta la selezione dei file per una revisione interna); Invia per una verifica esterna (comporta la selezione dei file per una revisione esterna); Accetta il file sottomesso (comporta la selezione dei file per la fase editoriale); o Rifiuta il file sottomesso (archiviazione del file sottomesso).</message>
-<message key="editor.submission.editorial.finalDraftDescription"><![CDATA[Per i "volumi editi", i cui capitoli sono cioè stati scritti da autori diversi, possono essere caricati tanti file quanti sono i capitoli in vista del copyediting. Questi file saranno in seguito esaminati dagli autori dei capitoli, dopo il caricamento dei file successivi al copyediting in <span class="pkp_help_title">Copyediting</span>.]]></message>
-<message key="editor.monograph.editorial.fairCopy">Bella copia</message>
-<message key="editor.monograph.editorial.fairCopyDescription">Il copyeditor carica una copia corretta del file per la successiva revisione dell'editor, prima che si passi in Produzione.</message>
-
-<!-- Production/Proof related -->
-<message key="editor.submission.production.introduction"><![CDATA[Al momento dell'entrata in Produzione, l'editor seleziona il tipo di formato (ad esempio, digitale, brossura, ecc) in <span class="pkp_help_title">Formati di pubblicazione</span>, per i quali il layout editor preparerà i file da pubblicare sulla base dei file destinati alla pubblicazione. I file da pubblicare sono caricati per ogni tipo di formato in <span class="pkp_help_title">Pagine di prova</span>, dove poi saranno sottosposte a revisione. Il libro è reso <em>disponibile</em> (cioè pubblicato) per ognuno dei formati in <span class="pkp_help_title">Formati di pubblicazione</span>, dopo che le <em>prove</em> sono state verificate e approvate, e si indica che la voce di catalogo è stata inclusa nella voce di catalogo del libro.]]></message>
-<message key="editor.submission.production.productionReadyFilesDescription"><![CDATA[Il layout editor prepara questi file per ogni formato di pubblicazione e poi li carica  nelle corrispondenti <span class = "pkp_help_title"> Pagina di prova</ span> per la correzione.]]></message>
-<message key="editor.monograph.proofs">Prove</message>
-<message key="editor.monograph.production.approvalAndPublishing">Approvazione e pubblicazione</message>
-<message key="editor.monograph.production.approvalAndPublishingDescription">I libri possono essere pubblicati in diversi formati (copertina rigida, brossura e digitale), possono essere caricati nella sezione Formati Pubblicazione che segue. È possibile utilizzare la griglia formati di pubblicazione di sotto come una lista di controllo per ciò che deve ancora essere fatto per pubblicare un formato di pubblicazione.</message>
-<message key="editor.monograph.production.publicationFormatDescription"><![CDATA[Aggiungi i formati di pubblicazione (ad esempio, digitale, brossura) per i quali il layout-editor prepara le bozze per la correzione. Occorre indicare che le <em>Bozze</em> sono state approvate e si deve controllare la voce di <em>catalogo</em> per il formato in questione, per indicare che questa voce è stata aggiunta alla voce di catalogo del libro, prima che il formato possa essere reso <em>disponibile</em> (cioè pubblicato).]]></message>
-<message key="editor.monograph.approvedProofs.edit">Scegliere le modalità per il caricamento</message>
-<message key="editor.monograph.approvedProofs.edit.linkTitle">Scegliere le modalità</message>
-<message key="editor.monograph.proof.addNote">Aggiungi una risposta</message>
-
-<!-- Review related -->
-<message key="editor.internalReview.introduction">Durante la fase di valutazione interna, l'editor assegna revisori interni ai file sottomessi e prende in considerazione le loro recensioni, prima di scegliere l'azione appropriata (che determina l'invio di una notifica all'autore): Da rivedere (le revisioni saranno esaminate dal solo editor); Da ricaricare per la revisione (sarà avviato un nuovo giro di revisioni); Inviare ad un revisore esterno (comporta la scelta dei file da inviare al revisore esterno); Accettare il file sottomesso (occorre scegliere i file che saranno inviati per la fase editoriale); o infine Rifiuta il file sottomesso (archiviazione del file sottomesso).</message>
-<message key="editor.externalReview.introduction">Durante la fase di valutazione esterna, l'editor sceglie dei revisori esterni alla Press per i file sottomessi e prende in considerazione i loro commenti, prima di scegliere l'azione appropriata (che determina l'invio di una notifica all'autore): Da rivedere (le revisioni saranno esaminate dal solo editor); Da ricaricare per la revisione (sarà avviato un nuovo giro di revisioni); Accettare il file sottomesso (occorre scegliere i file che saranno inviati per la fase editoriale); o infine Rifiuta il file sottomesso (archiviazione del file sottomesso).</message>
+	<message key="editor.submission.proof.manageProofFilesDescription">Tutti i file che sono stati caricati su qualsiasi Submission possono essere aggiunti all'elenco dei file di prova selezionando la checkbox Includi qui sotto e cliccando.</message>
+	<message key="editor.publicIdentificationExistsForTheSameType">L'identificatore pubblico '{$ publicIdentifier}' esiste già per un altro oggetto dello stesso tipo. Si prega di scegliere identificatori univoci per gli oggetti dello stesso tipo all'interno della vostra Casa Editrice.</message>
 </locale>
